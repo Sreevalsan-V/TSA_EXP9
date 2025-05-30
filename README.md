@@ -60,7 +60,7 @@ def arima_model(data, target_variable, order):
 
     print("Root Mean Squared Error (RMSE):", rmse)
 
-arima_model(data, 'temp_max', order=(5,1,0))
+arima_model(data, 'temp_max', order=(5,1,5))
 ```
 ### OUTPUT:
 
